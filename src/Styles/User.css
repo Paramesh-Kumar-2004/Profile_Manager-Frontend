@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#UserMain {
+    padding: 14px;
+    min-height: 100vh;
+    min-width: 100%;
+    position: fixed;
+    background-image: url("../Images/Itachi\ 3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 26px;
+}
+
+#addButton {
+    border-radius: 14px;
+    padding: 14px;
+    font-weight: bolder;
+    font-style: italic;
+    background-image: url("../Images/Naruto\ All\ Characters\ Friends\ 2.jpg");
+    color: greenyellow;
+    background-size: cover;
+    border: 2px solid cyan;
+    cursor: pointer;
+}
+
+#User {
+    justify-items: center;
+    height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+#table {
+    width: 80%;
+}
+
+#tableHead {
+    top: 0;
+    position: sticky;
+    color: blue;
+    text-shadow: 0 0 14px cyan;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    background: transparent;
+    box-shadow: inset 0 0 14px 1px skyblue;
+    background: rgba(135, 207, 235, 0.5);
+}
+
+.tableUserTh {
+    padding: 4px;
+    height: 4pc;
+    border: 2px solid blue;
+    cursor: default;
+}
+
+#tableBody {
+    background: transparent;
+}
+
+.tableUserTd {
+    padding: 14px;
+    height: 80px;
+    background: transparent;
+    color: lightblue;
+    box-shadow: inset 0 0 14px 1px skyblue;
+    border: 2px solid lightseagreen;
+    text-align: center;
+    cursor: default;
+}
+
+#deleteButton {
+    color: red;
+    text-shadow: 0 0 14px red;
+    cursor: pointer;
+}
+
+#deleteButton:hover {
+    scale: 1.2;
+    transition: all 0.5s ease-in-out;
+    text-shadow: 0 0 14px maroon;
+}
+
+#UpdateButton {
+    cursor: pointer;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+#UpdateButton:hover {
+    scale: 1.2;
+    transition: all 0.5s ease-in-out;
+    text-shadow: 0 0 14px green;
+}
