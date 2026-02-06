@@ -4,6 +4,7 @@ This is a React based project for creating a Student Management System. The syst
 
 ## Features
 
+- User authentication and authorization
 - Create, read, update, and delete students, teachers, and classes
 - Assign teachers to classes and students to classes
 - Search for students, teachers, and classes
@@ -44,6 +45,10 @@ This is a React based project for creating a Student Management System. The syst
 3. Make changes
 4. Commit changes
 5. Create a pull request
+
+## Authors
+
+- Paramesh Kumar - [paramesh-kumar-2004](https://github.com/paramesh-kumar-2004)
 
 ## License
 
